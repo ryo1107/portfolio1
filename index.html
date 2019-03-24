@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ryo's portfolio</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+  <meta http-equiv="content-type" charset="utf-8">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
+  
+  <style>
+  <!--
+    a:link    { text-decoration:     none; color:inherit; }
+    a:visited { text-decoration:     none; color:inherit; }
+    a:active  { text-decoration:     none; color:inherit; }
+    a:hover   { text-decoration:underline; color:inherit; }
+  -->
+  </style>
+
+  <style>
+    #navigator {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    #navigator .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    @media (max-width: 720px) {
+      #navigator {
+        border-bottom: 1px solid #ccc;
+      }
+    }
+
+    #navigator a {
+      font-size: 14px;
+    }
+
+    #navigator+section {
+      padding: 250px 0;
+    }
+
+  </style>
+</head>
+
+<header style="background-color: rgba(0, 0, 0, 0.7)">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav0">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"><font color=#ffffff>Home</font><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><font color=#ffffff>skills</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works"><font color=#ffffff>works</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><font color=#ffffff>about</font></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<body link="#000000" vlink="#000000" alink="#000000">
+
+  <section class="fdb-block">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col col-md-8 text-center">
+          <h1>ryo kato</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fdb-block">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              <h1 id="skills">skills</h1><br>
+            </div>
+          </div>
+    <div class="background-gray">
+      <div class="row justify-content-sm-center no-gutters">
+        <div class="col-12 col-sm-8 col-md-3 m-auto">
+          <div class=" text-center">
+          <h3><strong>Python</strong></h3>
+          </div>
+          <p>
+            私の中で, 一番手になじんでいる言語. 2017年の6月頃, 研究のため独学で学び始める. 研究ではkerasを用いて機械学習をする際に, アルバイトではAWSのlambdaやheadless chrome, slack appのバックエンドなどのコードを書く際に使用. C,C++でpython用のライブラリ作成を画策中.
+          </p>
+        </div>
+  
+        <div class="col-12 col-sm-8 col-md-3 m-auto pt-3 pt-md-0">
+          <div class=" text-center">
+          <h3><strong>AWS</strong></h3>
+          </div>
+          <p>どうしてもAWSにふれたく, 2018年10月からはじめたアルバイトで使用. 
+            EC2,lambda,ApiGateway,CloudWatch,
+            CloudFront,Workspaces,S3,aws-cli,
+            AmazonConnect,IoTEnterpriceButton,
+            CloudTrail,SystemManager,VPC,Route53,
+            SES,SNS,boto3,WAF,IAM,EBSの使用経験あり.</p>
+        </div>
+  
+        <div class="col-12 col-sm-8 col-md-3 m-auto pt-3 pt-md-0">
+          <div class=" text-center">
+          <h3><strong>html,css,markdown</strong></h3>
+          </div>
+          <p>railsを学ぶにあたって学習中. また, アルバイト先の技術ブログを書く際markdownを使用.<br><br><br><br><br><br></p>
+        </div>
+      </div>
+  
+      <div class="row text-center justify-content-md-center pt-3 pt-md-5">
+        <div class="col-12 col-sm-8 col-md-3 m-auto">
+          <div class=" text-center">
+          <h3><strong>ruby on rails</strong></h3>
+          </div>
+          <p>一度,2018年の8月頃にhttpやsql,htmlなど全く知らない状況で学びだしwindows環境でbundle error続出で挫折. httpなど軽く学び, 2019年になるころWSL環境で再挑戦.現在, railsチュートリアルで学習中.railsでwordpressを再現しようと画策しており出来上がったら, EC2インスタンスにあげる予定.</p>
+        </div>
+  
+        <div class="col-12 col-sm-8 col-md-3 m-auto pt-3 pt-md-0">
+          <div class=" text-center">
+          <h3><strong>linux,centOS,macOS</strong></h3>
+          </div>
+          <p>私物のPCはwindowsだが,linux,centOS,macOSのほかにRaspberryPiをNAS化した際にrazubianを使ったことも.また,LAMP構成でwordpressのサイト作成経験もあり.ApacheのかわりにNginxなどを使い高速化の調整経験もある.<br><br></p>
+        </div>
+  
+        <div class="col-12 col-sm-8 col-md-3 m-auto pt-3 pt-md-0">
+          <div class=" text-center">
+          <h3><strong>kotlin</strong></h3>
+          </div>
+          <p> 私がかなりの方向音痴で道によく迷うので,絶対に迷わない地図アプリを作成したく2018年の年末から学びはじめる. 現状, 参考書の模写をしているところだが, railsの学習を優先しているため休止中.<br><br><br><br></p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fdb-block">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class=" text-center">
+          <h1 id="works">works</h1>
+          </div>
+          <p class="lead">
+            アルバイト先の技術ブログで作成し,情報発信した物の代表例3つを紹介する.<br>
+            すべて他の学生アルバイトと計2名で作成している.</p>
+          <a href="https://hacknote.jp/archives/author/r-kato/">URL: https://hacknote.jp/archives/author/r-kato/</a>
+        </div>
+      </div>
+    </div>
+
+  <div class="container-fluid">
+    <div class="background-gray">
+      <div class="container">  
+        <div class="row text-left mt-5">
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto mr-md-auto ml-md-0">
+            <br>
+            <img alt="image" class="img-fluid rounded" src="./imgs/wc.png">
+            <h3><strong>
+            <a href="https://hacknote.jp/archives/47312/" style="text-decoration:none;">
+                社内のトイレ難民解決！トイレ空き状況確認システムを作ってみた</a>
+            </strong></h3>
+            <p>
+              アルディーノセンサーとAWSのApiGateway+lambdaでトイレの個室の空き状況をslackに伝えるシステム. トイレに行かなくてもslackで確認できるようにした.
+              <br>
+              <br>
+
+            </p>
+          </div>
+    
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto pt-5 pt-md-0">
+            <br>
+            <img alt="image" class="img-fluid rounded" src="./imgs/dash.png">
+            <h3><strong>
+                <a href="https://hacknote.jp/archives/47566/" style="text-decoration:none;">
+                  Dashボタンでウォーターサーバーの備品注文をできるようにしてみた</a>
+            </strong></h3>
+            <p>アルバイト先のウォーターサーバーの水を入れ替えた時にIoTEnterpriceButtonを押すことで最終的に業者へ発注されるシステム.<br><br><br></p>
+          </div>
+    
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto ml-md-auto mr-md-0 pt-5 pt-md-0">
+            <br>
+            <img alt="image" class="img-fluid rounded" src="./imgs/fax.png">
+            <h3><strong>
+                <a href="https://hacknote.jp/archives/48488/" style="text-decoration:none;">
+                  スパムFAXを画像解析＋機械学習でブロックしてみた</a>
+            </strong></h3>
+            <p>アルバイト先でwebサイト上のFAXを使っているのですが,スパムが非常に多く,webサイトの使い勝手が悪い.そこで,作ったのがFAX画像をダウンロードしスパム分類後その結果をslackへと送信するシステムである.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+  <section class="fdb-block">
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12">
+            <div class=" text-center">
+            <h1 id="about">about</h1>
+            </div>
+          </div>
+        </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+          <p class="lead">
+            大学最初の３年間で医学,工学のミックスしたものを学び,大学４年次に以前から興味のあった個人識別について研究しようと考え,心電図を使った個人識別について研究し始める.
+            ハードウェア,ソフトウェア問わず,ものづくりが好きで陶芸,はんだ付け,カフェラテ作り,RaspberryPiを使ったポータブルオーディオプレーヤ作成などが好き.
+            また,好奇心旺盛かつ凝り性なのでとことんやりこむ.就活がひと段落したら自作キーボードをする予定.
+          </p>
+  
+          <p class="lead"><strong>ryo kato</strong> <em class="ml-4">tokyo city university master's 1st grade</em></p>
+        </div>
+        <div class="col-8 col-sm-6 col-md-2 col-lg-3 col-xl-2 mt-4 mt-md-0 ml-auto mr-auto mr-md-0">
+          <img alt="image" class="img-fluid rounded-circle" src="./imgs/cat4.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="fdb-block footer-small">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <ul class="nav justify-content-center justify-content-md-start">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#works">works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
