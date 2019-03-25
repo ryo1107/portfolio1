@@ -1261,6 +1261,17 @@ footer {
   footer a {
     color: #444444; }
 
+    .header{
+      background:rgba(0, 0, 0, 0.7);
+      box-shadow:0 2px 8px rgba(30,30,80,.3);
+      left:0;
+      line-height:1;
+      position:fixed;
+      top:0;
+      width:100%;
+      z-index:24;
+    }
+
 header {
   background-color: #FFFFFF; }
   header .navbar-nav a.nav-link {
